@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="/css/style.css" />
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.js"
+			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			crossorigin="anonymous"
+		></script>
+		<script src="jquery.fullpage.js"></script>
+		<title>Cash-Plant</title>
+	</head>
+	<body>
+		<div id="fullpage"> 
+			<div class="landing-page"> <!-- Landing Page -->			
+				<nav class="nav-bar"> <!-- Navigation & Active Page -->
+					<img class="plant-icon" src="/images/plant-green.png" alt="Plant Icon" />
+					<h2 class="logo-text">Cash Plant</h2>
+					<div class="navigation">
+						<a href="#">Methods</a>
+						<a href="#">Money Management</a>
+						<a href="#">Investments</a>
+						<a href="#">Personal Growth</a>
+					</div>
+				</nav>
+				<div class="page-active">
+						<img id="dot-page-1" src="/images/ellipse-a.svg" alt="Circle" />
+						<img id="arrow" src="/images/arrow.svg" alt="arrow">
+						<img id="dot-page-2" src="/images/ellipse-na.svg" alt="Circle" />
+				</div>	
+				<section id="landing-container"> <!-- featured article and subscribe -->
+					<div class="left-card">
+						<h2><span>Featured</br></span>this month</h2>
+						<div class="feature-line"></div>
+						<article>
+							<h3>
+								<span>Affiliate Marketing</span>,</br>a free legit guide to <span>make money online!</span>
+							</h3>
+							<p>
+								Top 10 ways to create a <span>profitable passive</span> income over a period of time.
+							</p>
+						</article>
+						<button class="article-btn"><a href="#">Read the full article</a></button>
+					</div>
+					<div class="right-card">
+						<h2>Stay ahead of the competition, <span>sign up</span> for our newsletter now!</h2>
+						<p>Get monthly updates and <span>the most profitable tips</span> !</p>
+						<form action="#">
+							<input type="text" name="first-name" value="First Name" />
+							<input type="text" name="last-name" value="Last Name" />
+							<input type="email" name="email" value="Email" />
+							<button class="subscribe-btn"><a href="#">SUBSCRIBE</a></button>
+						</form>
+					</div>
+				</section>
+				<p class="unsplash-credit-lucas-favre">
+						Photo by
+						<a
+							href="https://unsplash.com/@we_are_rising?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+							>Lucas Favre</a
+						>on
+						<a
+							href="https://unsplash.com/@we_are_rising?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+							>unsplash</a
+						>
+				</p>
+			</div>
+			<!-- Preword page and main article board -->
+
+			<section class="preword-page main-article-board">
+				<div class="left-preword-card">
+					<h2>
+						Tired of watching hours of video material and online blogs about making ( quick ) online
+						money for free?! Well, i am. And this is exactly the reason why i launched this website.
+					</h2>
+					<article></article>
+				</div>
+				<div class="right-preword-card">
+					<h4>Stay ahead of the competition, <span>sign up</span> for our newsletter now!</h4>
+					<p>Get weekly updates and <span>the most profitable tips</span>!</p>
+				</div>
+				<footer>
+						<div class="social-media-icons">
+							<img src="/images/facebook-logo.png" alt="Facebook icon" />
+							<img src="/images/youtube-logo.png" alt="YoutTube icon" />
+							<img src="/images/linkedin-logo-1.png" alt="Linked In icon" />
+						</div>
+						<p>By Steve Van de Vyver 2019</p>
+				</footer>
+			</section>
+		</div>
+		<script type="text/javascript">
+			$('#fullpage').fullpage()
+		</script>
+	</body>
+</html>

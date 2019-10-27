@@ -1,0 +1,10 @@
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Raleway&display=swap');
+@import 'landing-page', 'preword-page';

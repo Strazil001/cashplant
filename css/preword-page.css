@@ -1,0 +1,53 @@
+/* Preword page */
+.preword-page {
+  height: 100vh;
+  width: 100%;
+  padding: 0 100px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.preword-page h2 {
+  margin-top: 25px;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.preword-page footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 35px;
+}
+
+.preword-page footer .social-media-icons img {
+  margin: 0 15px;
+  width: 15px;
+}
+
+.preword-page footer p {
+  font-size: 0.5rem;
+}
+/*# sourceMappingURL=preword-page.css.map */
