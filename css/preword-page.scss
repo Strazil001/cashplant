@@ -6,14 +6,53 @@
 	padding: 0 100px;
 	overflow: hidden;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
+	.preword-page-active {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		position: fixed;
+		top: calc(50% - 100px);
+		left: 35px;
+		width: 50px;
+		height: 200px;
+		#dot-page-1 {
+			width: 10px;
+		}
+		#arrow {
+			width: 20%;
+		}
+		#dot-page-2 {
+			width: 10px;
+		}
+	}
 	h2 {
 		margin-top: 25px;
 		width: 100%;
 		font-size: 1.5rem;
+	}
+	.feature-line {
+		width: 100%;
+		height: 4px;
+		margin: 10px;
+		background: #8bcc6d;
+		border-radius: 2px;
+	}
+
+	.left-preword-card {
+		height: 85%;
+		width: 40%;
+		margin-right: 5px;
+	}
+	.right-preword-card {
+		height: 85%;
+		width: 40%;
+		margin-left: 5px;
 	}
 	footer {
 		display: flex;

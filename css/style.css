@@ -363,21 +363,75 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.preword-page .preword-page-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: calc(50% - 100px);
+  left: 35px;
+  width: 50px;
+  height: 200px;
+}
+
+.preword-page .preword-page-active #dot-page-1 {
+  width: 10px;
+}
+
+.preword-page .preword-page-active #arrow {
+  width: 20%;
+}
+
+.preword-page .preword-page-active #dot-page-2 {
+  width: 10px;
 }
 
 .preword-page h2 {
   margin-top: 25px;
   width: 100%;
   font-size: 1.5rem;
+}
+
+.preword-page .feature-line {
+  width: 100%;
+  height: 4px;
+  margin: 10px;
+  background: #8bcc6d;
+  border-radius: 2px;
+}
+
+.preword-page .left-preword-card {
+  height: 85%;
+  width: 40%;
+  margin-right: 5px;
+}
+
+.preword-page .right-preword-card {
+  height: 85%;
+  width: 40%;
+  margin-left: 5px;
 }
 
 .preword-page footer {
