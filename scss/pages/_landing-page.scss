@@ -1,17 +1,6 @@
-@mixin break-1480-font($fontsize) {
-	@media only screen and (max-width: 1480px) {
-		font-size: $fontsize;
-	}
-}
+@import '../abstract/mixins';
 
 /* Landing page, featured article and subscribe */
-
-#fullpage {
-	height: 100vh;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
 
 .landing-page {
 	height: 100vh;
@@ -97,7 +86,8 @@
 			height: 80%;
 			margin-right: 25px;
 			padding: 40px;
-			background: rgba(23, 23, 23, 0.5);
+            background: rgba(23, 23, 23, 0.5);
+            box-shadow: 2px 4px 5px rgba($color: #000000, $alpha: 0.4);
 			color: whitesmoke;
 			border-radius: 10px;
 			text-align: center;
@@ -164,6 +154,7 @@
 			margin-left: 25px;
 			padding: 40px 60px;
 			background: rgba(255, 255, 255, 0.4);
+            box-shadow: 2px 4px 5px rgba($color: #000000, $alpha: 0.4);
 			border-radius: 10px;
 			text-align: center;
 			font-family: 'Raleway', sans-serif;
